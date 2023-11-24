@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Estatística e Combinatória</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora Estatística e Combinatória</h1>
+        <label for="dados">Insira os dados (separados por vírgula): </label>
+        <textarea id="dados" rows="4"></textarea>
+        <button id="calcularBtn" onclick="calcularEstatisticas()">Calcular</button>
+
+        <div id="resultados" class="resultados">
+            <!-- Os resultados estatísticos serão exibidos aqui -->
+        </div>
+
+        <div id="histograma" class="histograma"></div>
+
+        <div id="resultadosCombinatorios" class="resultadosCombinatorios">
+            <!-- Os resultados combinatórios serão exibidos aqui -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
